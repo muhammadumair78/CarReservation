@@ -1,0 +1,41 @@
+<ion-content>
+  <form novalidate="novalidate" on-valid-submit="save()">
+    <div class="card padding">
+      <h4 class="text-center">Sign Up</h4>
+      <div class="list card">
+        <label for="firstname" class="item item-input validated">
+          <span class="input-label">First Name</span>
+          <input name="firstname" id="firstname" type="text" ng-model="contact.first_name" required="required" placeholder="first name">
+          <i class="icon ion-alert-circled error" ></i>
+        </label>
+        <label for="lastname" class="item item-input validated">
+          <span class="input-label">Last Name</span>
+          <input name="lastname" id="lastname" type="text" required="required" ng-model="contact.last_name" placeholder="last name">
+          <i class="icon ion-alert-circled error"></i>
+        </label>
+        <label for="lastname" class="item item-input validated">
+          <span class="input-label">Last Name</span>
+          <input name="lastname" id="lastname" type="text" required="required" ng-model="contact.last_name" placeholder="last name">
+          <i class="icon ion-alert-circled error"></i>
+        </label>
+        <label for="lastname" class="item item-input validated">
+          <span class="input-label">Last Name</span>
+          <input name="lastname" id="lastname" type="text" required="required" ng-model="contact.last_name" placeholder="last name">
+          <i class="icon ion-alert-circled error"></i>
+        </label>
+        <label for="lastname" class="item item-input validated">
+          <span class="input-label">Last Name</span>
+          <input name="lastname" id="lastname" type="text" required="required" ng-model="contact.last_name" placeholder="last name">
+          <i class="icon ion-alert-circled error"></i>
+        </label>
+      </div>
+      <button type="submit" class="button button-block button-balanced" >
+        <strong>Save</strong>
+      </button>
+    </div>
+  </form>
+  <div class="auth-links text-center">
+    <a ui-sref="auth">Back</a> -
+    <a ui-sref="register">Sign In</a>
+  </div>
+</ion-content>
